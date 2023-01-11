@@ -1,0 +1,23 @@
+<html>
+    <head>
+    <title>Лабораторна робота No3 – Знайомство з JavaScript, динамічне
+    формування HTML-документу</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+    <body>
+    </body>
+        <script name="Scripts" language="JavaScript">
+            function openWin(){
+            myWin = open("", "displayWindow", "width=500, height=400, status=yes, toolbar=yes, menubar=yes");
+            myWin.document.open();
+            myWin.document.write
+            ("<html><head><title>Нова сторінка");
+            myWin.document.write("</title></head><body>");
+            myWin.document.write("<center><font size=+3>");
+            myWin.document.write("Цей документ було створено за допомогою ");
+            myWin.document.write("JavaScript!");
+            myWin.document.write("</font></center>");
+            myWin.document.write("</body></html>");
+            myWin.document.close();
+            }
+    </script>
+</html>
