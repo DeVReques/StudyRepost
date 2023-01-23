@@ -1,2 +1,2 @@
 # StudyRepost
-The First repository study
+The First repository
